@@ -11,9 +11,6 @@
 		240196122962B2AF00062C9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240196112962B2AF00062C9C /* ContentView.swift */; };
 		240196142962B2B000062C9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240196132962B2B000062C9C /* Assets.xcassets */; };
 		240196172962B2B000062C9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240196162962B2B000062C9C /* Preview Assets.xcassets */; };
-		240196212962B2B000062C9C /* UdderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240196202962B2B000062C9C /* UdderTests.swift */; };
-		2401962B2962B2B000062C9C /* UdderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401962A2962B2B000062C9C /* UdderUITests.swift */; };
-		2401962D2962B2B000062C9C /* UdderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401962C2962B2B000062C9C /* UdderUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		240196132962B2B000062C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		240196162962B2B000062C9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2401961C2962B2B000062C9C /* UdderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		240196202962B2B000062C9C /* UdderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdderTests.swift; sourceTree = "<group>"; };
 		240196262962B2B000062C9C /* UdderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2401962A2962B2B000062C9C /* UdderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdderUITests.swift; sourceTree = "<group>"; };
-		2401962C2962B2B000062C9C /* UdderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				2401960E2962B2AF00062C9C /* Udder */,
-				2401961F2962B2B000062C9C /* UdderTests */,
-				240196292962B2B000062C9C /* UdderUITests */,
 				2401960D2962B2AF00062C9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				240196162962B2B000062C9C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2401961F2962B2B000062C9C /* UdderTests */ = {
-			isa = PBXGroup;
-			children = (
-				240196202962B2B000062C9C /* UdderTests.swift */,
-			);
-			path = UdderTests;
-			sourceTree = "<group>";
-		};
-		240196292962B2B000062C9C /* UdderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2401962A2962B2B000062C9C /* UdderUITests.swift */,
-				2401962C2962B2B000062C9C /* UdderUITestsLaunchTests.swift */,
-			);
-			path = UdderUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				240196212962B2B000062C9C /* UdderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2401962B2962B2B000062C9C /* UdderUITests.swift in Sources */,
-				2401962D2962B2B000062C9C /* UdderUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
